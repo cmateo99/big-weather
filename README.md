@@ -6,6 +6,6 @@ To use the weather dashboard, open the page and enter the name of a city in the 
 The search history will display all of the cities that have been searched, and clicking on one of the cities will display the current and future weather conditions for that city. The clear history will clear all past search buttons.
 
 Links:
-Deployed Application:
-Github Repository:
+Deployed Application:https://cmateo99.github.io/big-weather/
+Github Repository: https://github.com/cmateo99/big-weather
 License: MIT License
