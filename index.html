@@ -16,41 +16,62 @@
         <div class="box">
             <div class="title">Search For a City</div>
             <input class="input" type="text" placeholder="Search">
+            <div class="box">
+                <button class="button is-fullwidth is-primary" id="searchBtn">Search</button>
+            </div>
+            <div class="buttons" id="pastSearch"></div>
+            <button class="button is-fullwidth is-danger" id="clearHistory">Clear History</button>
         </div>
         
     </div>
     <div class="column is-two-thirds">
         <div class="box">
             <div class="title" id="selectedCity">City Placeholder</div>
-        
+            <p id="tempF">Temp:</p>
+            <p id="wind">Wind:</p>
+            <p id="humidity">Humidity:</p>
         </div>
         <div class="box">
             <div class="title is-size-4" >5-Day Forecast</div>
-            <div class="box "id="forecastBox">
-                <div class="columns is-mobile ">
+            <div class="box ">
+                <div class="columns is-mobile has-text-white-bis"id="forecastBox">
                     <div class="column ">
                         <div class="box has-background-info">
-                            <p class=" is-danger">Auto</p>
+                            <p class=" is-danger">Date</p>
+                            <p class=" is-danger">Wind</p>
+                            <p class=" is-danger">Humidity</p>
                         </div>
                         
-                    </div><div class="column ">
+                    </div>
+                    <div class="column ">
                         <div class="box has-background-info">
-                            <p class=" is-danger">Auto</p>
+                            <p class=" is-danger">Date</p>
+                            <p class=" is-danger">Wind</p>
+                            <p class=" is-danger">Humidity</p>
                         </div>
                         
-                    </div><div class="column ">
+                    </div>
+                    <div class="column ">
                         <div class="box has-background-info">
-                            <p class=" is-danger">Auto</p>
+                            <p class=" is-danger">Date</p>
+                            <p class=" is-danger">Wind</p>
+                            <p class=" is-danger">Humidity</p>
                         </div>
                         
-                    </div><div class="column ">
+                    </div>
+                    <div class="column ">
                         <div class="box has-background-info">
-                            <p class=" is-danger">Auto</p>
+                            <p class=" is-danger">Date</p>
+                            <p class=" is-danger">Wind</p>
+                            <p class=" is-danger">Humidity</p>
                         </div>
                         
-                    </div><div class="column ">
+                    </div>
+                    <div class="column ">
                         <div class="box has-background-info">
-                            <p class=" is-danger">Auto</p>
+                            <p class=" is-danger">Date</p>
+                            <p class=" is-danger">Wind</p>
+                            <p class=" is-danger">Humidity</p>
                         </div>
                         
                     </div>
@@ -61,5 +82,8 @@
         </div>
     </div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+<script src="/assets/js/script.js"></script>
 </body>
+
 </html>
