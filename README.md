@@ -7,5 +7,5 @@ The search history will display all of the cities that have been searched, and c
 
 Links:
 Deployed Application:
-Github Repository:
+Github Repository: https://github.com/cmateo99/big-weather
 License: MIT License
